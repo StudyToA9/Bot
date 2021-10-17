@@ -1,5 +1,4 @@
-FROM SL_RAVANA_TEAM/slRavana:latest
-
+FROM fusuf/whatsasena:latest
 RUN git clone https://github.com/NitrossRoboto/Bot /root/Bot
 WORKDIR /root/Bot/
 ENV TZ=Europe/Istanbul
